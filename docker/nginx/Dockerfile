@@ -1,6 +1,6 @@
 FROM nginx:1.20
 WORKDIR /data
-COPY ./*.conf /etc/nginx/conf.d/
+COPY ./default.conf /etc/nginx/conf.d/
 
 # ポート設定
 EXPOSE 80
