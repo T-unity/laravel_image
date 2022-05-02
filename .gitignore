@@ -1,8 +1,7 @@
-/docker/singleContainer
+/1docker/singleContainer
 
 #
 /infra
-docker-compose.yml
 
 #
 cloudformation
